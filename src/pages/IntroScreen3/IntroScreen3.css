@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: url("/src/images/image\ 5.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.next-image {
+  width: 15%;
+  max-width: 200px;
+  cursor: pointer;
+  margin-bottom: 40px;
+  margin-right: 250px;
+}
+
+.comment-container {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.comment-image {
+  width: 330px;
+  margin-bottom: 275px;
+  margin-right: 130px;
+}
+
+.comment-text {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  color: #11aec6;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bottom-left-icons {
+  position: absolute;
+  bottom: 10px;
+  left: 300px;
+}
+
+.settings {
+  width: 35px;
+  height: 35px;
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+
+.star {
+  width: 35px;
+  height: 35px;
+  margin-left: 60px;
+  margin-bottom: 45px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 60px;
+  margin-bottom: 38px;
+}
+
+.back-icon {
+  position: absolute;
+  top: -45px;
+  right: 850px;
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}
+
+.comment-text1 {
+  color: #11aec6;
+  margin-right: 10px;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  color: #11aec6;
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* .top-middle-icons {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
+
+.top-bar {
+  width: 400px;
+  height: 20px;
+  margin: 0 -40px;
+}
+
+.top-banana {
+  width: 80px;
+  height: 45px;
+} */
+
+.top-middle-icons {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: inherit;
+}
+
+.top-bar {
+  position: relative;
+  width: 400px;
+  height: 20px;
+  margin: 0 -40px;
+}
+
+.top-banana {
+  position: absolute;
+  top: -12px; /* Adjust this value to position the banana properly */
+  left: 110%;
+  transform: translateX(-50%) rotate(-19deg); /* Adjust the rotation angle as needed */
+  width: 90px;
+  height: 92px;
+  z-index: 1; /* Ensure the banana is above the top-bar */
+}
